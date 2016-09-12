@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/09/2016, 18:43:09
+    Author     : Felipe
+*/
+body {
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+}
+#cabecalho {
+    background: rgba(0, 0, 0, 0) url("../imagens/cabecalho.png") no-repeat scroll 0 -52px;
+    height: 52px;
+    margin: -12px auto auto auto;
+    width: 100%;
+}
+#menu {
+    background: #4885c4 none repeat scroll 0 0;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 1px 16px 0;
+    border: 0px;
+    margin-top: 10px;
+}
+#menu:hover{
+    cursor: pointer;
+}
+#procurar {
+    border: 1px solid gray;
+    border-radius: 3em;
+}
+#procurarSubmit {
+    background: #4885c4 url("../imagens/icone.png") no-repeat scroll -83px 0;
+    border-radius: 12px;
+    display: block;
+    height: 25px;
+    right: 3px;
+    top: 34px;
+    width: 25px;
+    border: 0px;
+}
+#procurarInput {
+    border:0px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+#destaques {
+    height: 53px;
+    background: url("../imagens/fundo.png") no-repeat 0 0px;
+    background-size: 100% auto;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+#navegacao {
+    height: 43px;
+    background: url("../imagens/fundo2.png") no-repeat 0 0px;
+    background-size: 100% auto;
+    color: #fff;
+    text-align: center;
+    vertical-align: bottom;
+}
+.titulo {
+    color: #2c61aa;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.subtitulo {
+    color: rgb(51, 51, 51);
+    font-size: 9pt;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.filmes {
+    color: #58595b;
+    font-size: 13px;
+    font-weight: normal;
+}
+.titulo2 {
+    color: #2c61aa;
+    font-size: 15px;
+    font-weight: bold;
+}
+#textoInicio {
+    color: #58595b;
+    font-size: 10px;
+    font-weight: normal;
+}
+#paginacao {
+    border-left: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    text-align: center; 
+    width: 20%;     
+    color: #58595b;
+    font-size: 12px;
+    font-weight: bold;
+}
+img:hover {
+    border: 3px solid goldenrod;
+}
+.imgLink:hover {
+    border: 0px;
+}
+.aba:hover {
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}
