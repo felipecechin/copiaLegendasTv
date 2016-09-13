@@ -75,7 +75,7 @@ and open the template in the editor.
                     <table align="center" width="80%">
                         <tr>
                             <td id="destaques">
-                                DESTAQUES MAIS BAIXADOS DA SEMANA
+                                <a href="#">DESTAQUES MAIS BAIXADOS DA SEMANA</a>
                             </td>
                         </tr>
                     </table>

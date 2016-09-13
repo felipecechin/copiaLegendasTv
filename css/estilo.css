@@ -45,16 +45,22 @@ body {
 }
 #procurarInput {
     border:0px;
-    padding-left: 30px;
+    margin-left: 8%;
     font-size: 15px;
+    width: 92%;
 }
 #destaques {
     height: 53px;
     background: url("../imagens/fundo.png") no-repeat 0 0px;
     background-size: 100% auto;
+    text-align: center;
+}
+#destaques a {
     color: #fff;
     font-size: 25px;
-    text-align: center;
+}
+#destaques a:hover {
+    text-decoration: underline;
 }
 #navegacao {
     height: 43px;
