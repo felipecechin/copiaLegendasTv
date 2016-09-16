@@ -47,16 +47,18 @@ and open the template in the editor.
                                 <button id="menu">MENU</button>
                             </td>
                             <td width="55%">
-                                <table width="70%" align="right" id="procurar">
-                                    <tr>
-                                        <td>
-                                            <input type="text" placeholder="Procurar" id="procurarInput">
-                                        </td>
-                                        <td align="right">
-                                            <input type="submit" id="procurarSubmit" value="">
-                                        </td>
-                                    </tr>
-                                </table>
+                                <form action="#">
+                                    <table width="70%" align="right" id="procurar">
+                                        <tr>
+                                            <td>
+                                                <input type="text" placeholder="Procurar" id="procurarInput">
+                                            </td>
+                                            <td align="right">
+                                                <input type="submit" id="procurarSubmit" value="">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
                             </td>
                         </tr>
                     </table>
@@ -213,12 +215,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -228,7 +230,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -253,12 +255,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -268,7 +270,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -293,12 +295,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -308,7 +310,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -335,12 +337,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -350,7 +352,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -375,12 +377,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -390,7 +392,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -415,12 +417,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -430,7 +432,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -457,12 +459,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -472,7 +474,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -497,12 +499,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -512,7 +514,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -537,12 +539,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -552,7 +554,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -579,12 +581,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -594,7 +596,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -619,12 +621,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -634,7 +636,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -659,12 +661,12 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Downloads: 660
+                                                        Downloads: <span class="downloads">660</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Por: InSanos
+                                                        Por: <a href="#" class="por ">InSanos</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -674,7 +676,7 @@ and open the template in the editor.
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <button style="color: white; background-color: #2c61aa; border: 0px;">DOWNLOAD</button>
+                                                        <button class="botaoDownload">DOWNLOAD</button>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -693,8 +695,29 @@ and open the template in the editor.
                         <tr>
                             <td style="border-top: 1px solid gray;"></td>
                             <td id="paginacao">
-                                <a href="#"> <font style="color: goldenrod;font-weight: bold"> < </font> 1 2 3 4 5 6 7 8 9 <font style="color: goldenrod;font-weight: bold"> > </font>
-                                </a>
+                                <table align="center">
+                                    <tr>
+                                        <td> 
+                                            <a href="#" id="paginacaoFlecha">
+                                                <
+                                            </a>
+                                        </td>
+                                        <td> <a href="#" class="paginacaoItem">1</a></td>
+                                        <td> <a href="#" class="paginacaoItem">2</a></td>
+                                        <td> <a href="#" class="paginacaoItem">3</a></td>
+                                        <td> <a href="#" class="paginacaoItem">4</a></td>
+                                        <td> <a href="#" class="paginacaoItem">5</a></td>
+                                        <td> <a href="#" class="paginacaoItem">6</a></td>
+                                        <td> <a href="#" class="paginacaoItem">7</a></td>
+                                        <td> <a href="#" class="paginacaoItem">8</a></td>
+                                        <td> <a href="#" class="paginacaoItem">9</a></td>
+                                        <td> 
+                                            <a href="#" id="paginacaoFlecha">
+                                                > 
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                             <td style="border-top: 1px solid gray;"></td>
                         </tr>

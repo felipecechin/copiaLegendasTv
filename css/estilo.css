@@ -43,6 +43,9 @@ body {
     width: 25px;
     border: 0px;
 }
+#procurarSubmit:hover {
+    cursor: pointer;
+}
 #procurarInput {
     border:0px;
     margin-left: 8%;
@@ -119,4 +122,40 @@ img:hover {
     background-color: white;
     color: gray;
     cursor: pointer;
+}
+.downloads {
+    color: #2c61aa;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+.por {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.por:hover {
+    text-decoration: underline;
+}
+.botaoDownload {
+    color: white; 
+    background-color: #2c61aa; 
+    border: 0px;
+}
+.botaoDownload:hover {
+    cursor: pointer;
+}
+#paginacaoFlecha {
+    color: goldenrod;
+    font-weight: bold;
+    padding: 1px 4px 1px 4px;
+}
+#paginacaoFlecha:hover {
+    background-color: #2c61aa;
+}
+.paginacaoItem:hover {
+    background-color: #2c61aa;
+    color: white;
+}
+.paginacaoItem {
+    padding: 1px 4px 1px 4px;
 }
