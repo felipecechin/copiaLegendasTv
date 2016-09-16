@@ -695,14 +695,14 @@ and open the template in the editor.
                         <tr>
                             <td style="border-top: 1px solid gray;"></td>
                             <td id="paginacao">
-                                <table align="center">
+                                <table align="center" cellspacing="0" cellpadding="0">
                                     <tr>
                                         <td> 
                                             <a href="#" id="paginacaoFlecha">
                                                 <
                                             </a>
                                         </td>
-                                        <td> <a href="#" class="paginacaoItem">1</a></td>
+                                        <td> <a href="#" class="paginacaoItem" id="paginacaoItemPrimeiro">1</a></td>
                                         <td> <a href="#" class="paginacaoItem">2</a></td>
                                         <td> <a href="#" class="paginacaoItem">3</a></td>
                                         <td> <a href="#" class="paginacaoItem">4</a></td>

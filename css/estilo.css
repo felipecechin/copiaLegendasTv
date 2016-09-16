@@ -159,3 +159,7 @@ img:hover {
 .paginacaoItem {
     padding: 1px 4px 1px 4px;
 }
+#paginacaoItemPrimeiro {
+    background-color: #2c61aa;
+    color: white;
+}
